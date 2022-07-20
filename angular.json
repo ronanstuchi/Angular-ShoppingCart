@@ -103,5 +103,7 @@
         }
       }
     }
-  }
+    
+  },
+  "defaultProject": "add-to-cart"
 }
