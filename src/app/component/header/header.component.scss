@@ -7,7 +7,19 @@
 .search-icon {
     position: absolute;
     z-index: 10;
-    right: 52%;
-    top: 20px;
+    right: 53%;
+    top: 24px;
     color: blue;
 }
+
+ @media screen and (min-width: 1750px) {
+    .search-icon  { 
+        visibility: hidden;
+    }
+	}
+   
+    @media screen and (max-width: 850px)  {
+        .search-icon  { 
+            visibility: hidden;
+        }
+        }
